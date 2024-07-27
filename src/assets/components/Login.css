@@ -1,0 +1,103 @@
+body {
+    background-image: url(image3.jpeg);
+    background-size: cover;
+    background-repeat: auto;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#id1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgb(24, 76, 33);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: normal;
+    color: whitesmoke;
+    border: #04351b;
+}
+
+.container {
+   
+max-width: 900px;
+margin-top: 10px; 
+padding: 20px;
+border: 1px solid #000000;
+text-align: center;
+height: 20%;
+max-height: 600px; 
+padding: 60px;
+border: 3px solid #000100e7;
+border-style:outset;
+border-radius: 60px;
+background-color: rgba(238, 249, 235, 0.558); 
+margin-left: 10px;
+margin-right:  40px;
+box-shadow: 0 10px 20px rgba(37, 82, 52, 0.741), 0 6px 6px rgba(40, 72, 42, 0.889);
+}
+.container2 {
+    max-width: 6000px;
+    margin-right:1%;
+   
+    margin-top: 9% ; /* Adjust margin for spacing from the top */
+    padding: 10px 60px 30px;
+    border: 3px solid #000100e7;
+    border-style: outset;
+    border-radius: 20px;
+    background-color: rgba(238, 249, 235, 0.74); 
+    box-shadow: 0 10px 20px rgba(37, 82, 52, 0.741), 0 6px 6px rgba(40, 72, 42, 0.889);
+    width: 90%;
+    height: 20%; /* Adjust this as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.login-form {
+    margin-bottom: 20px;
+}
+
+
+
+@media (min-width: 600px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media (min-width: 900px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 75%;
+    }
+}
+.textField:focus-within {
+    border-color: green !important;
+  }
+  
+  .button:focus,
+  .button:hover {
+    background-color: green !important;
+  }
+  
+  .checkboxLabel {
+    word-spacing: 1px;
+    color: black;
+  }
+  

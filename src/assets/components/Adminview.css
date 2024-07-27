@@ -1,0 +1,113 @@
+.Booklist {
+    margin-top: 4%;
+    font-size: 120px;
+    color: #2e5630;
+}
+
+.admin-view {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.book-list, .user-list {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    color: black;
+    background-color: #f9f9f9; /* Light background color for the tables */
+}
+
+table, th, td {
+    border: 1px solid #354a2f;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #78ad41e9;
+}
+
+button {
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.add-book-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.add-book-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-book-form .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.add-book-form label {
+    margin-bottom: 5px;
+    color: rgb(0, 5, 2);
+}
+
+.add-book-form input, .add-book-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #205518;
+    border-radius: 4px;
+    color: #205518; /* This sets the text color inside the input fields to green */
+    background-color: white; /* Ensure the background is white to contrast the green text */
+}
+
+.add-book-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgb(222, 242, 221);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-book-form button:hover {
+    background-color: #45a049;
+}
+
+.Booklist, .Userlist {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #205518;
+}
+
+.addbooks {
+    color: #205518;
+    text-shadow: #354a2f;
+}
